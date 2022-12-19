@@ -17,7 +17,7 @@ def convert_to_float(data_set, mode):
     try:
         if mode == 'training':
             for data in data_set:
-                new_set.append([float(x) for x in data[:len(data)-1]] + [data[len(data)-1]])
+                new_set.append([float(x) for x in data[:len(data)-1]] + [data[len(data)-2]])
 
         elif mode == 'test':
             for data in data_set:
