@@ -29,7 +29,7 @@ for line in f.readlines():
         data frame_train_list.append(line.strip())
 f.close()
 
-data frame_content_list = []
+data frame_content_list =  []
 f = open('data/corpus/' + dataset + '.clean.txt', 'r')
 for line in f.readlines():
    data frame_list.append(line.strip())
