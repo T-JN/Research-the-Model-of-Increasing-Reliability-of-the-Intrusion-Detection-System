@@ -1,0 +1,4 @@
+All datasets are generated based on malware source codes. 
+malware datasets: Athena, Dure, Engrat, Grum, Mimikatz, Surtr. Datasets in files for CTPH 20,40,128,256,512,1024 bytes. Each set 1000 sample. 
+Run only in a virtual machine!!!. 
+password for all arxiv: malware-dataset-2
