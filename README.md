@@ -14,4 +14,4 @@ https://www.metasploit.com/ ,
 https://releases.ubuntu.com/20.04/ ,
 https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-20685  ,
 https://www.redpacketsecurity.com/cve-2022-20685-flaw-in-the-modbus-preprocessor-of-the-snort-makes-it-unusable/ ,
-http://manual-snort-org.s3-website-us-east-1.amazonaws.com/node17.html .
+http://manual-snort-org.s3-website-us-east-1.amazonaws.com/node17.html.
