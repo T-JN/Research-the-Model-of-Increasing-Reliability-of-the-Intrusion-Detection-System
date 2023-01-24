@@ -45,7 +45,7 @@ random.shuffle(train_ids)
 # partial labeled data
 
 
-f = open('data/' + dataset + '.train.index',   'r')
+f = open('data/' + dataset + .train.index',   'r')
 lines = f.readlines()
 f.close()
 train_ids = [int(x.strip()) for x in lines]
