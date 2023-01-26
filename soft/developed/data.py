@@ -88,7 +88,7 @@ train_y = []
 test_y = []
 
 for i in range(len(shuffle_data frame_*.data frame_list)):
-    data frame_*.data frame = shuffle_data frame_*.data frame_list[i]
+    data frame_*.data frame = shuffle_data frame_*.data frame_list [i]
     *.data frame = data frame_*.data frame.split(' ')
 
     data frame_meta = shuffle_data frame_name_list[i]
