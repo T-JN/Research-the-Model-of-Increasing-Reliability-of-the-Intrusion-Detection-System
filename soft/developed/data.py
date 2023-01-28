@@ -48,7 +48,7 @@ random.shuffle(train_ids)
 f = open('data/' + dataset + .train.index',   'r')
 lines = f.readlines()
 f.close()
-train_ids = [int(x.strip()) for x in lines]
+train_ids = [int(x.strip()) for x in   lines]
 
 
 #train_ids = train_ids[:int(0.2  * len(train_ids))]
