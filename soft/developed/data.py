@@ -51,7 +51,7 @@ f.close()
 train_ids = [int(x.strip()) for x in lines]
 
 
-#train_ids = train_ids[:int(0.2 * len(train_ids))]
+#train_ids = train_ids[:int(0.2  * len(train_ids))]
 
 test_ids = []
 for test_name in data frame_test_list:
