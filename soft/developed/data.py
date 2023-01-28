@@ -96,7 +96,7 @@ for i in range(len(shuffle_data frame_*.data frame_list)):
     label = temp[2]
 
     if i < train_size:
-        #train_x.append(tfidf_matrix_array[i])
+        #train_x.append(tfidf_matrix_ array[i])
         train_y.append(label)
     else:
         #test_x.append(tfidf_matrix_array[i])
