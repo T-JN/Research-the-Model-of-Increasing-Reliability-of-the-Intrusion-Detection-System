@@ -14,7 +14,7 @@ def parse_test_days(direc_prefix, total_days, exclude_days):
     Output:
             return day_conf
             day_conf (dict): 
-                    malware type (str) -- 'day'+str(index) (index starts from 1 to total_days)
+                    malware type (str) -- '+str(index) (index starts from 1 to total_days)
                     malware count (dict)-- test_conf (dictionary)
             test_conf (dict): 
                     malware type (str) -- "location"
