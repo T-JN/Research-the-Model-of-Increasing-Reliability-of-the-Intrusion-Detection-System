@@ -17,7 +17,7 @@ def parse_test_days(direc_prefix, total_days, exclude_days):
                     malware type (str) -- '+str(index) (index starts from 1 to total_days)
                     malware count (dict)-- test_conf (dictionary)
             test_conf (dict): 
-                    malware type (str) -- "location"
+                    malware type (str) --  "location"
                     malware count (str) -- where the experiment was conducted
                     malware type (str) -- 'motion'
                     malware count (int) -- total number of motion tests conducted (valid for LabI or LabII)
