@@ -6,7 +6,7 @@ from operator import itemgetter
 
 def load_data_set(filename):
     try:
-        with open(filename, newline='') as iris:
+        with open(filename, newline='')   as iris:
             return list(reader(iris, delimiter=','))
     except FileNotFoundError as e:
         raise e
