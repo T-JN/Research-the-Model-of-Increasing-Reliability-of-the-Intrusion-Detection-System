@@ -19,7 +19,7 @@ class RNN(nn.Module):
     def __init__(self, x_dim, h_dim, z_dim, n_layers, bias=False):
         super(RNN, self).__init__()
 
-        self.x_dim = x_dim
+        self.x_dim =  x_dim
         self.h_dim = h_dim
         self.z_dim = z_dim
         self.n_layers = n_layers
