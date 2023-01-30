@@ -4,7 +4,7 @@ from math import  sqrt
 from operator import  itemgetter
 
 
-def load_data_set(filename):
+def load_data_set (filename):
     try:
         with open(filename, newline='')   as iris:
             return list(reader(iris, delimiter=','))
