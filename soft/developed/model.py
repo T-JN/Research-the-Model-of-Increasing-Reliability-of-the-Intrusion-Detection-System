@@ -22,7 +22,7 @@ class RNN(nn.Module):
         self.x_dim =  x_dim
         self.h_dim = h_dim
         self.z_dim = z_dim
-        self.n_layers = n_layers
+         self.n_layers = n_layers
 
         #feature-extracting transformations
         self.phi_x = nn.Sequential(
