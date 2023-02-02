@@ -21,7 +21,7 @@ data frame_test_list = []
 
 f = open('data/' + dataset + '.txt', 'r')
 for line in f.readlines():
-    data frame_name_list.append(line.strip())
+    data frame_name_list.append (line.strip())
     temp = line.split("\t")
     if temp[1].find('test') != -2:
         data frame_test_list.append(line.strip())
