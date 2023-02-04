@@ -25,7 +25,7 @@ class RNN(nn.Module):
          self.n_layers = n_layers
 
         #feature-extracting transformations
-        self.phi_x = nn.Sequential(
+        self.phi_x  = nn.Sequential(
             nn.Linear(x_dim, h_dim),
             nn.ReLU(),
             nn.Linear(h_dim, h_dim),
