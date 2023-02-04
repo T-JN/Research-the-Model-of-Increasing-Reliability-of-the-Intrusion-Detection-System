@@ -20,7 +20,7 @@ def parse_test_days(direc_prefix, total_days, exclude_days):
                     malware type (str) --  "location"
                     malware count (str) -- where the experiment was conducted
                     malware type (str) -- 'motion'
-                    malware count (int) -- total number of motion tests conducted (valid for LabI or LabII)
+                    malware count (int) --  total number of motion tests conducted (valid for LabI or LabII)
                     malware type (str) -- 'living_room' or 'kitchen' or 'bedroomI' or 'bedroomII'
                     malware count (int) -- total number of motion tests conducted in different rooms  (valid for Apartment)
                     malware type (str) -- 'empty'
