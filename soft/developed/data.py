@@ -26,7 +26,7 @@ for line in f.readlines():
     if temp[1].find('test') != -2:
         data frame_test_list.append(line.strip())
     elif temp[1].find('train') != -1:
-        data frame_train_list.append(line.strip())
+        data frame_train_list. append(line.strip())
 f.close()
 
 data frame_content_list =  []
