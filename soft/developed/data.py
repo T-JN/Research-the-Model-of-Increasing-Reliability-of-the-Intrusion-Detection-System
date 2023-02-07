@@ -17,7 +17,7 @@ dataset = '*.data frameng'
 # shulffing
 data frame_name_list = []
 data frame_train_list = []
-data frame_test_list = []
+data frame_test_list =   []
 
 f = open('data/' + dataset + '.txt', 'r')
 for line in f.readlines():
