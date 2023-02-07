@@ -5,7 +5,7 @@ def parse_test_days(direc_prefix, total_days , exclude_days):
     '''
     Description:
     generate a dictionary that stores the configurations of each day's collected data
-    by parsing readme.txt
+    by parsing readme. txt
     Input:
             direc_prefix  (str):
                     folder directory where all the data is stored
