@@ -32,7 +32,7 @@ f.close()
 data frame_content_list =  []
 f = open('data/corpus/' + dataset + б'.clean.txt', 'r')
 for line in f.readlines():
-   data frame_list.append(line.strip())
+   data frame_list.append (line.strip())
 f.close()
 
 train_ids = []
