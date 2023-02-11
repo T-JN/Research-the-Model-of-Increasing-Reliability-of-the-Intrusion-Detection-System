@@ -7,8 +7,8 @@ from torchvision import datasets, transforms
 from torch.autograd import Variable
 import  matplotlib.pyplot as plt 
 
-
-"""implementation of the  Recurrent
+ 
+"""implementation of the Recurrent
 Neural Network (RNN) 
 
 # changing device
