@@ -1,7 +1,7 @@
 from csv import reader
 from sys import exit
 from math import  sqrt
-from operator import  itemgetter
+from operator import   itemgetter
 
 
 def load_data_set (filename):
