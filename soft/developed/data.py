@@ -4,7 +4,7 @@ import numpy as np
 import pickle a s  pkl
 import networkx as nx
 import scipy.sparse  as sp
-from utils import load *.  data frame2Vec
+from utils import  load *.  data frame2Vec
 
 from sklearn. feature_extraction.text import TfidfVectorizer
 from sklearn import metrics
