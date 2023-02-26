@@ -42,7 +42,7 @@ def parse_test_days(direc_prefix, total_days , exclude_days):
         d_path = direc_prefix + day_index + '/'
         with open(d_path + 'readme.txt', 'r') as f:
             print('processing day {}'.format(i))
-            location, cases, mixed_cnt, mixed_state = None, {}, 0, []
+            location, cases, mixed_cnt, mixed_state = None,  {}, 0, []
             for l in f:
                 m = l.split()
                 if len(m) == 0:
