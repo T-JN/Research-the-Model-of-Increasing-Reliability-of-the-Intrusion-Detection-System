@@ -1,7 +1,7 @@
 
 import  random
 import numpy as np
-import pickle a s   pkl
+import pickle a s    pkl
 import networkx as nx
 import scipy.sparse  as sp
 from utils import  load *.  data frame2Vec
