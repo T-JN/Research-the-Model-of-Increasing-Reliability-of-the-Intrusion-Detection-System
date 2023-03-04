@@ -1,6 +1,6 @@
 
 import  random
-import numpy as np
+import numpy as  np
 import pickle a s    pkl
 import networkx as nx
 import scipy.sparse  as sp
