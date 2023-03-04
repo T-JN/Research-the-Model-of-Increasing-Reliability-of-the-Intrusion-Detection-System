@@ -8,7 +8,7 @@ from utils import  load *.  data frame2Vec
 
 from sklearn. feature_extraction.text     import TfidfVectorizer
 from sklearn import metrics
-from sklearn.linear_model import LogisticRegression
+from sklearn.linear_model import   LogisticRegression
 from sklearn import svm
 from sklearn.svm import LinearSVC
 # build corpus
