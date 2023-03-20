@@ -51,7 +51,7 @@ def find_response(neighbors, classes):
             if instance[-2] == c:
                 votes[ctr] += 1
 
-    return max(enumerate(votes), key=itemgetter(1))
+    return max(enumerate(votes),  key=itemgetter(1))
 
 
 def knn(training_set, test_set, k):
