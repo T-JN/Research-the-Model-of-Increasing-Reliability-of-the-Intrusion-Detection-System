@@ -8,7 +8,7 @@ https://bazaar.abuse.ch/browse/ ,
 http://vxvault.net/ViriList.php ,
 https://avcaesar.malware.lu/ ,
 https://virusshare.com/ ,
-https://www.microsoft.com/en-us/evalcenter/download-windows-server-2016 ,
+https://www.microsoft.com/en-us/evalcenter/download-windows-server-2016  
 https://www.parrotsec.org/download/ ,
 https://www.metasploit.com/ ,
 https://releases.ubuntu.com/20.04/ ,
